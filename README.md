@@ -1,2 +1,1 @@
-![Image Alt](![Uploading image.png…]())
-
+![Alt text for the image](URL_or_path_to_the_image)
