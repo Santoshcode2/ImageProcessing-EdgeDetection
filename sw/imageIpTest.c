@@ -1,9 +1,3 @@
-/*
- * imageIpTest.c
- *
- *  Created on: Apr 4, 2020
- *      Author: VIPIN
- */
 
 #include "xaxidma.h"
 #include "xparameters.h"
@@ -133,5 +127,6 @@ static void dmaReceiveISR(void *CallBackRef){
 	done = 1;
 	XAxiDma_IntrEnable((XAxiDma *)CallBackRef, XAXIDMA_IRQ_IOC_MASK, XAXIDMA_DEVICE_TO_DMA);
 }
+
 
 
